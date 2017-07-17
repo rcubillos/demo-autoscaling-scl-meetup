@@ -19,7 +19,7 @@ funcion Lambda-
 Para instalar realizar los siguientes pasos
 1. Descargar proyecto desde Git-Hub
 2. [Usando aws cli crear un profile](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) con las credenciales de tu cuenta con el nombre demoprofile
-2. Ejecutar Terrafom plan desde el directorio del proyecto para ver que intenta crear terraform
-3. Ejecutar Terraform apply para crear infraestrcutura
+2. Ejecutar `Terrafom plan` desde el directorio del proyecto para ver que intenta crear terraform
+3. Ejecutar `Terraform apply` para crear infraestrcutura
 
 ## Probar la demo
