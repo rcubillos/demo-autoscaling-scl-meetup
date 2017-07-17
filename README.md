@@ -14,7 +14,7 @@ funcion Lambda-
 * Creados en AWS cola de Mensajes con nombre DEMO_INPUT en servicio SQS
 * Terraform instalado en tu equipo, [guia de instalación](https://www.terraform.io/intro/getting-started/install.html)
 
-##Instalacion de la Demo
+## Instalacion de la Demo
 
 Para instalar realizar los siguientes pasos
 1. Descargar proyecto desde Git-Hub
@@ -22,4 +22,4 @@ Para instalar realizar los siguientes pasos
 2. Ejecutar Terrafom plan desde el directorio del proyecto para ver que intenta crear terraform
 3. Ejecutar Terraform apply para crear infraestrcutura
 
-##Probar la demo
+## Probar la demo
