@@ -6,9 +6,9 @@ AWS con metricas personalizadas, para esto este proyecto presenta una aplicació
 que corre dentro de una instancia EC2 que consume mensajes de una cola SQS
 como parte de un grupo de autoescalado el que crece o descrece usando politicas
 de autoescalado que dependen de una metrica personalizada que es generada por una
-funcion Lambda-
+funcion Lambda
 
-## pre-requistos:
+## Pre requistos:
 * Cuenta AWS creada
 * [aws cli instalado](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 * Creados en AWS cola de Mensajes con nombre DEMO_INPUT en servicio SQS
@@ -19,7 +19,7 @@ funcion Lambda-
 Para instalar realizar los siguientes pasos
 1. Descargar proyecto desde Git-Hub
 2. [Usando aws cli crear un profile](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) con las credenciales de tu cuenta con el nombre demoprofile
-2. Ejecutar `Terrafom plan` desde el directorio del proyecto para ver que intenta crear terraform
-3. Ejecutar `Terraform apply` para crear infraestrcutura
+2. Ejecutar `terrafom plan` desde el directorio del proyecto para ver que intenta crear terraform
+3. Ejecutar `terraform apply` para crear infraestrcutura
 
 ## Probar la demo
