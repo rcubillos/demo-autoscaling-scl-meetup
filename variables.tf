@@ -1,5 +1,5 @@
 variable "profile_name" {
-  default = "rodrigocubillos"
+  default = "demoprofile"
 }
 
 
